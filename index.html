@@ -4,87 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NMSS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.mic.css" crossorigin="anonymous">
    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-<!--------------------------------------------------------Header Start------------------------------------------------------------->
-<header class="header">
-    <div class="container">
-        <div class="header-main">
-            <div class="logo">
-              <!--------<a href="home"><img src="images/students.jpg" width="125px"></a>------->
-                <a href="#">NMSS</a>
-            </div>
-            <div class="open-nav-menu">
-                <span></span>
-            </div>
-<!--------------------------------------------------------Nav Start------------------------------------------------------------->
-             <nav class="nav-menu">
-                 <ul class="menu">
-                     <li class="menu-item menu-item-has-children">
-                       <a href="#">Home</a>
-                     </li>
-                     <li class="menu-item">
-                        <a href="#">About</a>
-                      </li>
-                      <li class="menu-item menu-item-has-children">
-                        <a href="#">Staff<i class="plus"></i></a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#">Head Office</a></li>
-                            <li class="menu-item"><a href="#">Deputy Office</a></li>
-                            <li class="menu-item"><a href="#">Academic Office</a></li>
-                            <li class="menu-item"><a href="#">Discpline</a></li>
-                            <li class="menu-item"><a href="#">Departments</a></li>
-                        </ul>
-                      </li>
-                      <li class="menu-item menu-item-has-children">
-                        <a href="#">Students<i class="plus"></i></a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#">Students GOVT</a></li>
-                            <li class="menu-item"><a href="#">O-Level</a></li>
-                            <li class="menu-item"><a href="#">A-Level</a></li>
-                            <li class="menu-item"><a href="#"></a></li>
-                            <li class="menu-item"><a href="#"></a></li>
-                        </ul>
-                      </li>
-                      <li class="menu-item menu-item-has-children">
-                        <a href="#">Exams<i class="plus"></i></a>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="#">Midterm</a></li>
-                            <li class="menu-item"><a href="#">Terminal</a></li>
-                            <li class="menu-item"><a href="#">Annual</a></li>
-                        </ul>
-                      <li class="menu-item">
-                        <a href="#">News</a>
-                      </li>
-                      <li class="menu-item">
-                        <a href="#">Contact US</a>
-                      </li>
-
-                 </ul>
-             </nav>
-<!--------------------------------------------------------Nav End------------------------------------------------------------->
-        </div>
-    </div>
-
-</header>
-<!--------------------------------------------------------Header End------------------------------------------------------------->
 <body>
- 
-  <!---<div id="slider">
-    <figure>
-      <img src="images/students.jpg">
-      <img src="images/staff.jpg">
-      <img src="images/102.jpg">
-      <img src="images/12.jpg">
-      <img src="images/ss.jpg">
-    </figure>
-  </div>-->
-   <!--------------------------------------------------------Home Start------------------------------------------------------------->
-   <section class="home-section">
-
-   </section>
-   <!--------------------------------------------------------Home End--------------------------------------------------------------->
+  <nav> 
+    <label for="drop" class="toggle">MENU<i class="fa fa-bars" aria-hidden="true"></i></label>
+    <input type="checkbox" id="drop">
+    <ul class="nav">
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li>
+        <label for="drop-2" class="toggle">
+          <p>Administration<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+        </label>
+        <a href="">
+          <p>Administration<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+        </a>
+        <input type="checkbox" id="drop-2">
+        <ul>
+          <li>
+            <label for="drop-3" class="toggle">
+              <p>Head Office<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+            </label>
+            <a href="">
+              <p>Head office<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+            </a>
+            <input type="checkbox" id="drop-3">
+            <ul>
+              <li><a href="">Head Of School</a></li>
+              <li><a href="">Deputy</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="drop-3" class="toggle">
+              <p>Departments<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+            </label>
+            <a href="">
+              <p>Departments<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+            </a>
+            <input type="checkbox" id="drop-3">
+            <ul>
+              <li><a href="">Academic</a></li>
+              <li><a href="">Discpline</a></li>
+              <li><a href="">Finance</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <label for="drop-4" class="toggle">
+          <p>Students<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+        </label>
+        <a href="">
+          <p>Students<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+        </a>
+        <input type="checkbox" id="drop-4">
+        <ul>
+          <li><a href="">A-Level</a></li>
+          <li><a href="">O-Level</a></li>
+          <li>
+            <label for="drop-5" class="toggle">
+              <p>Government<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+            </label>
+            <a href="">
+              <p>Government<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+            </a>
+            <input type="checkbox" id="drop-5">
+            <ul>
+              <li><a href="">Top Leaders</a></li>
+              <li><a href="">Other Leaders</a></li>
+              <li><a href="">Departments</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <label for="drop-6" class="toggle">
+          <p>Resources<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+        </label>
+        <a href="">
+          <p>Resources<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+        </a>
+        <input type="checkbox" id="drop-6">
+        <ul>
+          <li><a href="">News</a></li>
+          <li><a href="">Downloads</a></li>
+          <li>
+            <label for="drop-7" class="toggle">
+              <p>Exams<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+            </label>
+            <a href="">
+              <p>Exams<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+            </a>
+            <input type="checkbox" id="drop-7">
+            <ul>
+              <li><a href="">Midterm</a></li>
+              <li><a href="">Terminal</a></li>
+              <li><a href="">Annual</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="">Contact US</a></li>
+    </ul>
+  </nav>
 </body>
 </html>
